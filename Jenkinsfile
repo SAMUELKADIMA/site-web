@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main', 
-                    url: 'https://github.com/SAMUELKADIMA/expos-_scripting.git'
+                    url: 'https://github.com/SAMUELKADIMA/site-web.git'
             }
         }
         
